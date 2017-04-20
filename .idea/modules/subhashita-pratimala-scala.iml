@@ -12,7 +12,7 @@
         <option name="APK_PATH" value="/../../target/android/intermediates/build_integration/subhashita-pratimala-scala-BUILD-INTEGRATION.apk" />
         <option name="RUN_PROGUARD" value="true" />
         <proGuardCfgFiles>
-          <file>$MODULE_DIR$/../../proguard-sbt.txt</file>
+          <file>file://$MODULE_DIR$/../../proguard-sbt.txt</file>
         </proGuardCfgFiles>
       </configuration>
     </facet>
