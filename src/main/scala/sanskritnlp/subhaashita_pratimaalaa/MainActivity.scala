@@ -3,8 +3,9 @@ package sanskritnlp.subhaashita_pratimaalaa
 import android.app.Activity
 import android.os.Bundle
 import android.graphics.drawable.Animatable
+import android.support.v7.app.AppCompatActivity
 
-class MainActivity extends Activity {
+class MainActivity extends AppCompatActivity {
     // allows accessing `.value` on TR.resource.constants
     implicit val context = this
 
