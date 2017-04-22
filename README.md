@@ -8,11 +8,14 @@ Current status: TODO: Stuff does not work after upgrade to using support-v13.
 
 # Initial setup
 * Link /home/vvasuki/.android/sbt/sdk to android sdk folder.
-* Just use the Build menu in Intellij to generate signed apk.
+* Just use the Build menu in Intellij to generate signed apk. If it fails, do packageRelease
 
 ## Quick sbt commands
-    * app/android:run
-    * app/android:packageRelease
+* You may need to drop the app/ below.
+  * app/android:run
+  * app/android:packageRelease
+    * This uses credentials to keystore in local.properties, if available.
+
 
 # Help links
 * <https://github.com/scala-android/sbt-android>
