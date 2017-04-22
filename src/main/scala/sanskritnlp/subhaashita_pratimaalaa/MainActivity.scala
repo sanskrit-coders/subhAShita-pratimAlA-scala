@@ -1,13 +1,12 @@
 package sanskritnlp.subhaashita_pratimaalaa
 
-import android.app.Activity
-import android.os.Bundle
 import android.graphics.drawable.Animatable
+import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 
 class MainActivity extends AppCompatActivity {
     // allows accessing `.value` on TR.resource.constants
-    implicit val context = this
+    implicit val context: MainActivity = this
 
     override def onCreate(savedInstanceState: Bundle): Unit = {
         super.onCreate(savedInstanceState)
