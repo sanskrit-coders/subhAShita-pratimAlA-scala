@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="sanskritnlpjava-build" external.linked.project.path="$USER_HOME$/sanskritnlpjava/project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="_root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.org.jetbrains.sbt.StructurePlugin, sbt._, Keys._, dsl._" sbt.resolvers="https://repo1.maven.org/maven2/|maven|public, /home/vvasuki/.ivy2/cache|ivy|Local cache" type="SBT_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$USER_HOME$/sanskritnlpjava/project/target/idea-classes" />
+    <output-test url="file://$USER_HOME$/sanskritnlpjava/project/target/idea-test-classes" />
+    <exclude-output />
+    <content url="file://$USER_HOME$/sanskritnlpjava/project">
+      <sourceFolder url="file://$USER_HOME$/sanskritnlpjava/project" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/sanskritnlpjava/project/project/target" />
+      <excludeFolder url="file://$USER_HOME$/sanskritnlpjava/project/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="SBT: sbt-and-plugins">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

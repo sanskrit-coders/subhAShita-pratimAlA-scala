@@ -4,7 +4,7 @@
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="jdk" value="Android API 24 Platform" />
+        <option name="jdk" value="1.8" />
         <option name="modules">
           <set>
             <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.3.1" />
@@ -29,10 +29,11 @@
             <option value="$PROJECT_DIR$/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="0.13.13" />
         <option name="useAutoImport" value="true" />
         <option name="useOurOwnAutoImport" value="true" />
       </SbtProjectSettings>
     </option>
+    <option name="maximumHeapSize" value="4000" />
+    <option name="vmParameters" value="-XX:MaxPermSize=1024M" />
   </component>
 </project>
