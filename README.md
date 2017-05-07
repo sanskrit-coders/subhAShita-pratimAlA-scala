@@ -2,7 +2,9 @@
 * Initially started out with gradle project <https://github.com/sanskrit-coders/subhAShita-pratimAlA> and tried to import to scala, but failed.
 * Switched to this project from scratch, following tutorials here: <https://github.com/scala-android/sbt-android> .
 * Realized that one cannot import maven based modules (sanskritnlpjava and subhashita-db-sanskrit) in a sbt based project. [SO Question](http://stackoverflow.com/questions/38713822/intellij-idea-support-both-sbt-and-maven-on-a-single-project).
-* Further faced problems with sbt heap size when including big sanskritnlpjava jar.
+* Further faced problems with including big sanskritnlpjava jar or including it via a maven dependency:
+  * sbt heap size when (when running from intellij).
+  * Proguard exceptions such as: (android:proguard) java.io.IOException
 * Switched back to <https://github.com/sanskrit-coders/subhAShita-pratimAlA> .
 
 # Initial setup
